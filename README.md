@@ -1,5 +1,5 @@
 # Project Questions
-### Student Discount Application
+### Student Discount Application (C# Application)
 Belgium Campus Cafeteria needs an application that will help them determine the list ofstudents who
 have qualified for high performing student discount. Each input record contains the student’s full
 name, Residence Student or Not, years on campus, years at current residence, monthly
