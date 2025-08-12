@@ -31,6 +31,7 @@ options:
 - Capture Details
 - Check discount qualification
 - Show qualification stats
+- Exit the program
 
 ---
- Exit the program
+
