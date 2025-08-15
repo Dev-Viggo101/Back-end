@@ -34,4 +34,30 @@ options:
 - Exit the program
 
 ---
+### Meal Planning and Ordering (C# OOP Application)
+As the Belgium Campus expands, many of its functions are being outsourced to independent
+organizations. One such area is the campus kitchen, which is partly managed by the Belgium Campus
+and partly by an independent entity named BC-Eats. As an intern, you have been tasked with
+developing an OOP application to manage meal planning and ordering for students and lecturers
 
+**Application Requirements**
+
+Create a menu using ENUM for the following options: 
+
+1. Register
+2. View registered members
+3. Place an order
+4. View placed orders
+5. Exit
+
+Description of Menu Options:
+
+- Register: Users can register members by providing relevant details. Both lecturers and
+students should be registered in the system.
+- View registered members: Users can view all registered members.
+- Place an order: Users can place orders for registered members, specifying whether the order
+is for a student or a lecturer.
+- View placed orders: Users can view all placed orders.
+- Exit: Allows the user to exit the application.
+
+---
