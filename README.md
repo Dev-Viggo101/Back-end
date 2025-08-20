@@ -61,3 +61,16 @@ is for a student or a lecturer.
 - Exit: Allows the user to exit the application.
 
 ---
+### Library Management System (Java Application (MVC Architecture))
+Create a Java application using the Model-View-Controller (MVC) design pattern by
+organizing your code into three main components.
+
+**The Library Management System using MVC architecture should have the following package
+structure:**
+
+- librarysystem.model - Contains data models.
+- librarysystem.view - Contains view classes for the user interface.
+- librarysystem.controller - Contains controller classes for business logic and interaction
+between the model and view.
+
+---
