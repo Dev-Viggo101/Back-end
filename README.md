@@ -74,3 +74,75 @@ structure:**
 between the model and view.
 
 ---
+### ATM Simulator (C# Application)
+You are building a console-based ATM system where a user can log in with basic credentials (like account number + PIN), then perform actions like:
+
+- Check balance
+
+- Deposit money
+
+- Withdraw money
+
+All account information (account number, name, PIN, balance) will be stored in a text file so that the data persists after the program closes.
+
+**Features To Implement:**
+
+1. Login System
+
+- Prompt the user for account number + PIN.
+
+- Verify against stored accounts in the text file.
+
+- If correct → allow access, else deny.
+
+2. Main Menu (once logged in)
+
+- 1️⃣ Check Balance
+
+- 2️⃣ Deposit
+
+- 3️⃣ Withdraw
+
+- 4️⃣ Exit
+
+3. Check Balance
+
+- Display current balance of logged-in user.
+
+4. Deposit
+
+- Ask user for deposit amount.
+
+- Add it to balance.
+
+- Update text file.
+
+5. Withdraw
+
+- Ask user for withdrawal amount.
+
+- Check if balance is sufficient.
+
+- Deduct if valid, else show error.
+
+- Update text file.
+
+6. Exit
+
+- Save any changes back to the text file.
+
+- Log out user safely.
+
+**A simple text file (accounts.txt) could store accounts like this:**
+
+- 1001,John Doe,1234,5000
+- 1002,Jane Smith,5678,3000
+- 1003,Bob Lee,4321,10000
+  
+Account Number, Name, Pin, Balance
+
+You’ll need to:
+- Read from the file at the start (load into memory).
+- Write back updates (like balance changes) after transactions.
+
+---
