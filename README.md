@@ -146,3 +146,21 @@ You’ll need to:
 - Write back updates (like balance changes) after transactions.
 
 ---
+### Student's Grade Manager (C# Application)
+A console app where you can add students with their grades, save them to a text file, and later read and display them.
+
+**Features:**
+
+- Add Student: Enter student name + grade → save to file.
+- List Students: Read file → show all students + grades.
+- Search Student: Enter a name → find and show grade (if exists).
+- Exit.
+
+**A simple text file (students.txt) could store data like this:**
+
+- John Doe,85
+- Jane Smith,90
+- Michael Johnson,75
+
+---
+
